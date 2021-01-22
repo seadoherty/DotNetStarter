@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 239, 239);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20pt;
+}
+
+h1 {
+    color: blue;
+    margin: 20px 0 20px 0;
+}
+
+main {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projectArea {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: auto;
+}
+
+.project {
+    width: 300px;
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid black;
+}
+
+.projectPic {
+    margin-left: 20px;
+}
+
+.projectDetails {
+    margin-left: 20px;
+    font-size: 24pt;
+}

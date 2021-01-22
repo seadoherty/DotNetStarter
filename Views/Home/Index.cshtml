@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <p><a href="/">Home</a></p>
+        <p><a href="/projects">Projects</a></p>
+        <p><a href="/contact">Contact</a></p>
+    </nav>
+    <h1>@ViewBag.Title</h1>
+    <main>
+        <div class="left">
+            <img src="~/images/colorZombie.jpeg" alt="Zombie" width="188" height="268">
+            <p>@ViewBag.PersonName</p>
+            <p>@ViewBag.Quote</p>
+        </div>
+        <div class="right">
+            <p>@ViewBag.Description</p>
+        </div>
+    </main>
+</body>
+
+</html>
